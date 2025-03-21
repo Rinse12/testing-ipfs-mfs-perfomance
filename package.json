@@ -1,0 +1,19 @@
+{
+  "name": "ipfs-mfs-performance-test",
+  "version": "1.0.0",
+  "description": "Performance testing for IPFS MFS operations with large directories",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "setup": "node src/setup.js"
+  },
+  "dependencies": {
+    "kubo-rpc-client": "^3.0.1",
+    "it-all": "^3.0.1",
+    "it-to-buffer": "^4.0.2",
+    "p-defer": "^4.0.0",
+    "progress": "^2.0.3",
+    "chalk": "^5.2.0"
+  }
+}
