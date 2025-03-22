@@ -6,7 +6,7 @@ import { generateRandomFilePath } from "./utils.js";
 
 const IPFS_API_URL = "http://localhost:15001/api/v0";
 const MFS_ROOT_DIR = "/mfs-test";
-const NUM_FILES_TO_ADD = 100;
+const NUM_FILES_TO_ADD = 50;
 const ITERATIONS = 3; // Run each test multiple times to get an average
 
 async function main() {
